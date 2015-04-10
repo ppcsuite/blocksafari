@@ -22,7 +22,7 @@
 <tr>
 	<th>Previous output (index)</th>
 	<th class="amount">Amount</th>
-	<th>Bitcoin from Address</th>
+	<th>Peercoin from Address</th>
 	<th>ScriptSig</th>
 </tr>
 {{range .Vin}}
@@ -44,12 +44,12 @@
 <h3>{{len .Vout}} Output(s)</h3>
 <table class="responsive" border="0" cellpadding="3" cellspacing="0" width="100%">
 <tr>
-        <th>Index</th>
-        <th>Redeemed at Input</th>
-        <th>Amount</th>
-        <th>Bitcoin to Address</th>
-        <th>Type</th>
-        <th>ScriptPubKey</th>
+		<th>Index</th>
+		<th>Redeemed at Input</th>
+		<th>Amount</th>
+		<th>Peercoin to Address</th>
+		<th>Type</th>
+		<th>ScriptPubKey</th>
 </tr>
 {{range $idx, $element := .Vout}}
 	<tr>

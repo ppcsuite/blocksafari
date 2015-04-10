@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/ppcsuite/btcutil"
 	"github.com/btcsuite/go-flags"
 )
 
@@ -30,7 +30,7 @@ const (
 )
 
 var (
-	btcdHomeDir        = btcutil.AppDataDir("btcd", false)
+	btcdHomeDir        = btcutil.AppDataDir("ppcd", false)
 	bsHomeDir          = btcutil.AppDataDir("blocksafari", false)
 	cfg                *config
 	defaultConfigFile  = filepath.Join(bsHomeDir, defaultConfigFilename)

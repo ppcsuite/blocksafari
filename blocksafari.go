@@ -14,10 +14,10 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/davecgh/go-spew/spew"
+	"github.com/ppcsuite/btcrpcclient"
 	"github.com/ppcsuite/ppcd/btcjson/v2/btcjson"
 	"github.com/ppcsuite/ppcd/wire"
-	"github.com/ppcsuite/btcrpcclient"
-	"github.com/davecgh/go-spew/spew"
 )
 
 const (

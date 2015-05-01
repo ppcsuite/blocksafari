@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ppcsuite/ppcd/btcjson/v2/btcjson"
+	"github.com/ppcsuite/ppcd/btcjson"
 )
 
 var (
